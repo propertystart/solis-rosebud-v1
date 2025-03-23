@@ -52,10 +52,10 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-sm font-medium uppercase tracking-wider text-noir-gold mb-4">Contact</h4>
             <ul className="space-y-3 text-sm text-gray-300">
-              <li>123 Preston Avenue</li>
-              <li>Preston, VIC 3072</li>
-              <li className="pt-2">sales@theviewpreston.com.au</li>
-              <li>+61 3 1234 5678</li>
+              <li>3 Arthur Street</li>
+              <li>Preston VIC 3072</li>
+              <li className="pt-2">peter@melbournec21.com.au</li>
+              <li>0419 930 959</li>
             </ul>
           </div>
         </div>

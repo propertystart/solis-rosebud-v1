@@ -73,7 +73,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div className="ml-4">
                     <p className="text-sm font-medium text-gray-900">Contact Us</p>
-                    <p className="text-sm text-gray-600 mt-1">sales@theviewpreston.com.au<br />+61 3 1234 5678</p>
+                    <p className="text-sm text-gray-600 mt-1">peter@melbournec21.com.au<br />0419 930 959</p>
                   </div>
                 </div>
               </div>
