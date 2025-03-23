@@ -55,6 +55,7 @@ const Footer: React.FC = () => {
               <li>3 Arthur Street</li>
               <li>Preston VIC 3072</li>
               <li className="pt-2">peter@melbournec21.com.au</li>
+              <li>Peter Anastas VIC 3072</li>
               <li>0419 930 959</li>
             </ul>
           </div>
