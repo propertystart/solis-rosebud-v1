@@ -127,6 +127,23 @@ const Index = () => {
           />
         </div>
         
+        {/* Community Lifestyle Image */}
+        <div className="max-w-4xl mx-auto mb-12">
+          <div className="bg-noir-light p-6 rounded-sm shadow-lg">
+            <ImageReveal
+              src="/lovable-uploads/4d94bb69-1b2c-4300-99e5-cd3841beae9c.png"
+              alt="Community lifestyle at The View Preston"
+              className="w-full rounded-sm shadow-inner"
+              aspectRatio="aspect-[16/9]"
+              animation="slide-up"
+            />
+            <div className="mt-6 text-center">
+              <h3 className="text-xl font-light text-white">Community Living at The View Preston</h3>
+              <p className="text-gray-400 mt-2">Enjoy the perfect blend of urban convenience and relaxed community living</p>
+            </div>
+          </div>
+        </div>
+        
         {/* Amenities Section */}
         <div className="max-w-4xl mx-auto bg-noir-light shadow-lg rounded-sm overflow-hidden mb-12">
           <div className="p-8 md:p-10">
