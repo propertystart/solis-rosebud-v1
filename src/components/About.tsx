@@ -7,23 +7,23 @@ import ImageCarousel from './ImageCarousel';
 const About: React.FC = () => {
   const carouselImages = [
     {
-      src: "/lovable-uploads/solis-living-1.png",
+      src: "/lovable-uploads/solis-living-1.jpg",
       alt: "Modern apartment living room with green sofa and open plan kitchen"
     },
     {
-      src: "/lovable-uploads/solis-kitchen-1.png",
+      src: "/lovable-uploads/solis-kitchen-1.jpg",
       alt: "Modern kitchen and dining area with wooden finishes"
     },
     {
-      src: "/lovable-uploads/solis-back-1.png",
+      src: "/lovable-uploads/solis-back-1.jpg",
       alt: "Balcony with outdoor dining and city skyline view"
     },
     {
-      src: "/lovable-uploads/solis-bathroom-1.png",
+      src: "/lovable-uploads/solis-bathroom-1.jpg",
       alt: "Luxury bathroom with stone tile walls and double vanity"
     },
     {
-      src: "/lovable-uploads/solis-bedroom-1.png",
+      src: "/lovable-uploads/solis-bedroom-1.jpg",
       alt: "Modern bedroom with mirrored wardrobe and balcony access"
     }
   ];
