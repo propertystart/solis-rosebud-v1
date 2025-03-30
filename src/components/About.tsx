@@ -15,7 +15,7 @@ const About: React.FC = () => {
       alt: "Modern kitchen and dining area with wooden finishes"
     },
     {
-      src: "/lovable-uploads/solis-back-1.jpg",
+      src: "/lovable-uploads/solis-courtyard-1.jpg",
       alt: "Balcony with outdoor dining and city skyline view"
     },
     {
