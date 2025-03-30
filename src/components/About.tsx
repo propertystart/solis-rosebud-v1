@@ -11,7 +11,7 @@ const About: React.FC = () => {
       alt: "Modern apartment living room with green sofa and open plan kitchen"
     },
     {
-      src: "/lovable-uploads/solis-dining-1.png",
+      src: "/lovable-uploads/solis-kitchen-1.png",
       alt: "Modern kitchen and dining area with wooden finishes"
     },
     {
