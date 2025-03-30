@@ -7,23 +7,23 @@ import ImageCarousel from './ImageCarousel';
 const About: React.FC = () => {
   const carouselImages = [
     {
-      src: "/lovable-uploads/6ec63079-ca6a-49ca-9fe4-17209d83f9d4.png",
+      src: "/lovable-uploads/solis-living-1.png",
       alt: "Modern apartment living room with green sofa and open plan kitchen"
     },
     {
-      src: "/lovable-uploads/7dfda104-d232-43a8-bfbd-429458b07f63.png",
+      src: "/lovable-uploads/solis-dining-1.png",
       alt: "Modern kitchen and dining area with wooden finishes"
     },
     {
-      src: "/lovable-uploads/27e1b090-8277-4a4d-bb22-1a29a0d42a39.png",
+      src: "/lovable-uploads/solis-back-1.png",
       alt: "Balcony with outdoor dining and city skyline view"
     },
     {
-      src: "/lovable-uploads/d67fd7e3-4384-43bb-a506-eb1699efff92.png",
+      src: "/lovable-uploads/solis-bathroom-1.png.png",
       alt: "Luxury bathroom with stone tile walls and double vanity"
     },
     {
-      src: "/lovable-uploads/76931db2-ace5-4166-9ecc-bfccc779c634.png",
+      src: "/lovable-uploads/solis-bedroom-1.png.png",
       alt: "Modern bedroom with mirrored wardrobe and balcony access"
     }
   ];
