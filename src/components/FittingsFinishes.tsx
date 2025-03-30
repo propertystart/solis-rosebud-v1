@@ -34,7 +34,7 @@ const FittingsFinishes: React.FC = () => {
           />
           <div className="h-px w-16 bg-noir-gold/30 mx-auto mt-6 mb-6"></div>
           <AnimatedText
-            text="The View Preston offers exceptional finishes throughout, combining style and functionality."
+            text="Solis Rosebud offers exceptional finishes throughout, combining style and functionality."
             tag="p"
             className="text-gray-300 max-w-2xl mx-auto"
             animation="slide-up"
