@@ -57,7 +57,7 @@ const Contact: React.FC = () => {
           />
           <div className="h-px w-16 bg-luxury/30 mt-6 mb-6 mx-auto"></div>
           <AnimatedText
-            text="For more information about The View Preston, please contact our sales team using the details below or fill out the form."
+            text="For more information about Solis Rosebud, please contact our sales team using the details below or fill out the form."
             tag="p"
             className="text-white leading-relaxed mb-8 text-center"
             animation="slide-up"
