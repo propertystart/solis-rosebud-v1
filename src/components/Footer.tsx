@@ -7,9 +7,9 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-xl font-light tracking-tighter mb-6">The View Preston</h3>
+            <h3 className="text-xl font-light tracking-tighter mb-6">Solis Rosebud</h3>
             <p className="text-gray-400 text-sm leading-relaxed mb-6 max-w-md">
-              A collection of meticulously crafted luxury apartments that redefine modern urban living in the heart of Preston.
+              A collection of meticulously crafted luxury apartments that redefine modern urban living in the heart of Rosebud.
             </p>
             <div className="flex items-center space-x-4">
               <a href="#" className="text-white hover:text-noir-gold transition-colors">
@@ -53,9 +53,9 @@ const Footer: React.FC = () => {
             <h4 className="text-sm font-medium uppercase tracking-wider text-noir-gold mb-4">Contact</h4>
             <ul className="space-y-3 text-sm text-gray-300">
               <li>3 Arthur Street</li>
-              <li>Preston VIC 3072</li>
+              <li>Rosebud VIC 3939</li>
               <li className="pt-2">peter@melbournec21.com.au</li>
-              <li>Peter Anastas VIC 3072</li>
+              <li>Peter Anastas VIC 3939</li>
               <li>0419 930 959</li>
             </ul>
           </div>
@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-noir-light mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-xs text-gray-500">
-            &copy; {new Date().getFullYear()} The View Preston by STEMCON. All rights reserved.
+            &copy; {new Date().getFullYear()} Solis Rosebud by STEMCON. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0">
             <ul className="flex space-x-6 text-xs text-gray-500">

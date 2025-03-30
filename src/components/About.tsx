@@ -42,7 +42,7 @@ const About: React.FC = () => {
               />
             </div>
             <AnimatedText
-              text="Timeless Elegance in Preston"
+              text="Timeless Elegance in Rosebud"
               tag="h2"
               className="text-3xl md:text-4xl font-light text-white tracking-tight"
               animation="slide-up"
@@ -50,14 +50,14 @@ const About: React.FC = () => {
             />
             <div className="h-px w-16 bg-noir-gold/50"></div>
             <AnimatedText
-              text="The View Preston is a collection of meticulously crafted luxury apartments that redefine modern urban living. Located in the vibrant heart of Preston, this architectural masterpiece offers an unparalleled living experience."
+              text="Solis Rosebud is a collection of meticulously crafted luxury apartments that redefine modern urban living. Located in the vibrant heart of Rosebud, this architectural masterpiece offers an unparalleled living experience."
               tag="p"
               className="text-gray-300 leading-relaxed"
               animation="slide-up"
               delay={200}
             />
             <AnimatedText
-              text="Every detail has been thoughtfully considered to create homes that are as functional as they are beautiful. From the premium finishes to the intelligent layouts, The View Preston represents the perfect harmony of form and function."
+              text="Every detail has been thoughtfully considered to create homes that are as functional as they are beautiful. From the premium finishes to the intelligent layouts, Solis Rosebud represents the perfect harmony of form and function."
               tag="p"
               className="text-gray-300 leading-relaxed"
               animation="slide-up"

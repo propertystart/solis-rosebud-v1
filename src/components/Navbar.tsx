@@ -56,7 +56,7 @@ const Navbar: React.FC = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a href="#" className="text-2xl font-medium text-white tracking-tighter hover:opacity-75 transition-opacity">
-          The View Preston
+          Solis Rosebud
         </a>
 
         {/* Desktop Navigation */}
