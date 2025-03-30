@@ -109,7 +109,7 @@ const Index = () => {
             animation="slide-up"
           />
           <AnimatedText
-            text="3 Arthur Street Rosebud VIC 3939"
+            text="23 Rosebud Parade, Rosebud, Vic 3939"
             tag="h2"
             className="text-3xl md:text-4xl font-light text-white tracking-tight mt-3"
             animation="slide-up"
