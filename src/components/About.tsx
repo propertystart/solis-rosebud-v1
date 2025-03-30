@@ -42,7 +42,7 @@ const About: React.FC = () => {
               />
             </div>
             <AnimatedText
-              text="Timeless Elegance in Rosebud"
+              text="AN EXCLUSIVE COLLECTION OF 20 METICULOUSLY CRAFTED RESIDENCES."
               tag="h2"
               className="text-3xl md:text-4xl font-light text-white tracking-tight"
               animation="slide-up"
@@ -50,30 +50,18 @@ const About: React.FC = () => {
             />
             <div className="h-px w-16 bg-noir-gold/50"></div>
             <AnimatedText
-              text="Solis Rosebud is a collection of meticulously crafted luxury apartments that redefine modern urban living. Located in the vibrant heart of Rosebud, this architectural masterpiece offers an unparalleled living experience."
+              text="Maximising elegance and luxury through the artistry of minimalist architectural design, these exclusive town residences are thoughtfully designed to offer a new genre of beachside living."
               tag="p"
               className="text-gray-300 leading-relaxed"
               animation="slide-up"
               delay={200}
             />
             <AnimatedText
-              text="Every detail has been thoughtfully considered to create homes that are as functional as they are beautiful. From the premium finishes to the intelligent layouts, Solis Rosebud represents the perfect harmony of form and function."
+              text="Drawing inspiration from the beauty of local icons, the homes skilfully embody timber boardwalks, bright white pier rails, beach-shack roof angles, and pastel beach-box colours provide homes that are distinctive, yet effortlessly settled within their coastal streetscape."
               tag="p"
               className="text-gray-300 leading-relaxed"
               animation="slide-up"
               delay={300}
-            />
-            <AnimatedText
-              text={
-                <>
-                  With over 25 years of quality and innovation in Melbourne, Stemcon and MAP Architects have crafted a development that blends style, functionality, and sustainability. Backed by a{' '}
-                  <span className="font-medium text-noir-gold bg-noir-dark px-3 py-1.5 rounded border border-noir-gold/30">20-year builder's guarantee</span>, it offers enduring quality and peace of mind for modern living.
-                </>
-              }
-              tag="p"
-              className="text-gray-300 leading-relaxed"
-              animation="slide-up"
-              delay={400}
             />
             <div className="pt-4">
               <a
