@@ -23,7 +23,7 @@ const About: React.FC = () => {
       alt: "Luxury bathroom with stone tile walls and double vanity"
     },
     {
-      src: "/lovable-uploads/solis-bedroom-1.png.png",
+      src: "/lovable-uploads/solis-bedroom-1.png",
       alt: "Modern bedroom with mirrored wardrobe and balcony access"
     }
   ];
