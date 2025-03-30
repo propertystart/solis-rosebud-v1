@@ -130,7 +130,7 @@ const Gallery: React.FC = () => {
             animation="slide-up"
           />
           <AnimatedText
-            text="Experience The View Preston"
+            text="Experience Solis Rosebud"
             tag="h2"
             className="text-3xl md:text-4xl font-light text-white tracking-tight mt-3"
             animation="slide-up"
@@ -138,7 +138,7 @@ const Gallery: React.FC = () => {
           />
           <div className="h-px w-16 bg-noir-gold/30 mx-auto mt-6 mb-6"></div>
           <AnimatedText
-            text="Browse our collection of images showcasing the exceptional quality and design of The View Preston."
+            text="Browse our collection of images showcasing the exceptional quality and design of Solis Rosebud."
             tag="p"
             className="text-gray-300 max-w-2xl mx-auto"
             animation="slide-up"
