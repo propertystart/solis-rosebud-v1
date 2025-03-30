@@ -18,8 +18,8 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 h-full w-full">
         <div className="relative h-full w-full">
           <img 
-            src="/lovable-uploads/8aca0879-7d7c-40ed-b5d6-423cfbb79611.png" 
-            alt="The View Preston Building" 
+            src="/lovable-uploads/9ec7ae7c-151d-4425-863d-1b5f57c7d6db.png" 
+            alt="Solis Rosebud Building" 
             className="object-cover object-center h-full w-full"
           />
           {/* Semi-transparent overlay to make the image darker */}
