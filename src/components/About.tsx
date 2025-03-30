@@ -19,7 +19,7 @@ const About: React.FC = () => {
       alt: "Balcony with outdoor dining and city skyline view"
     },
     {
-      src: "/lovable-uploads/solis-bathroom-1.png.png",
+      src: "/lovable-uploads/solis-bathroom-1.png",
       alt: "Luxury bathroom with stone tile walls and double vanity"
     },
     {
