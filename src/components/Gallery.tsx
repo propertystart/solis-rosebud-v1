@@ -26,8 +26,8 @@ const Gallery: React.FC = () => {
     },
     {
       id: 2,
-      src: "/lovable-uploads/2e41f948-430c-4b1c-aa61-d7a74eb2235c.png",
-      alt: "Designer kitchen with timber cabinetry and island dining area",
+      src: "/lovable-uploads/bd5f2521-70ea-4f72-bce4-c000c9194971.png",
+      alt: "Contemporary kitchen with walnut cabinetry, sea-green backsplash and minimalist pendant lighting",
       category: "kitchens"
     },
     {
@@ -38,8 +38,8 @@ const Gallery: React.FC = () => {
     },
     {
       id: 4,
-      src: "/lovable-uploads/c87b078e-353a-499b-973d-6469d7131fb1.png",
-      alt: "Elegant kitchen with light timber cabinetry and linear lighting",
+      src: "/lovable-uploads/19de20ef-d1cb-4a7e-9687-bb9a7f729222.png",
+      alt: "Elegant kitchen with breakfast bar seating, timber accents and abundant natural light",
       category: "kitchens"
     },
     {
@@ -74,8 +74,8 @@ const Gallery: React.FC = () => {
     },
     {
       id: 10,
-      src: "/lovable-uploads/b24b1501-d71d-4eac-aae3-ed10d3553e15.png",
-      alt: "Minimalist galley kitchen with white countertops and gas cooktop",
+      src: "/lovable-uploads/bd5f2521-70ea-4f72-bce4-c000c9194971.png",
+      alt: "Designer kitchen with mint-green backsplash, white countertops and breakfast bar seating",
       category: "kitchens"
     },
     {
