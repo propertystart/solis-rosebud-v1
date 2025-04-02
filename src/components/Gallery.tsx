@@ -32,8 +32,8 @@ const Gallery: React.FC = () => {
     },
     {
       id: 3,
-      src: "/lovable-uploads/a7047f15-3d4a-4d91-865a-4437b365fad6.png",
-      alt: "Master bedroom with mirrored wardrobes and private balcony",
+      src: "/lovable-uploads/e6568951-984e-4fa2-b662-6e62f694e27c.png",
+      alt: "Master bedroom with large windows, custom bedhead and designer lighting",
       category: "bedrooms"
     },
     {
@@ -50,8 +50,8 @@ const Gallery: React.FC = () => {
     },
     {
       id: 6,
-      src: "/lovable-uploads/f097e92b-4188-4db5-ab7e-07c733bdb441.png",
-      alt: "Bright bedroom with timber bedside table and city views",
+      src: "/lovable-uploads/b341d09f-fa96-4546-9f96-426ac6cf9f2c.png",
+      alt: "Serene bedroom with garden views, built-in storage and contemporary furnishings",
       category: "bedrooms"
     },
     {
@@ -80,8 +80,8 @@ const Gallery: React.FC = () => {
     },
     {
       id: 11,
-      src: "/lovable-uploads/85fd1faf-3429-4f5e-9161-ac436fbb0d65.png",
-      alt: "Stylish bedroom with curved fabric bedhead and timber side table",
+      src: "/lovable-uploads/da1c5fcd-6fa6-4972-bafb-a904e93d4cfe.png",
+      alt: "Bright bedroom with glass doors opening to private courtyard and outdoor dining",
       category: "bedrooms"
     },
     {
@@ -89,6 +89,12 @@ const Gallery: React.FC = () => {
       src: "/lovable-uploads/46c2d0b0-a244-42de-ad1f-c5e739188d59.png",
       alt: "Contemporary bathroom with freestanding bath and rainfall shower",
       category: "bathrooms"
+    },
+    {
+      id: 13,
+      src: "/lovable-uploads/6df284a5-d090-4abb-bd88-d31f9a8d052b.png",
+      alt: "Luxury bedroom with ensuite access, custom joinery and contemporary art",
+      category: "bedrooms"
     }
   ];
 
