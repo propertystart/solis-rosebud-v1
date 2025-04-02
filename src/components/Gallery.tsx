@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import AnimatedText from './AnimatedText';
 import ImageReveal from './ImageReveal';
@@ -19,8 +20,8 @@ const Gallery: React.FC = () => {
   const galleryItems: GalleryItem[] = [
     {
       id: 1,
-      src: "/lovable-uploads/80e2c3cf-f133-47c3-aa79-43906bced854.png",
-      alt: "Contemporary living room with balcony access and city views",
+      src: "/lovable-uploads/d35ecfd6-e0ec-4c49-8912-4feff93c4505.png",
+      alt: "Spacious open-plan living room with dining area, contemporary furniture and natural light",
       category: "livingrooms"
     },
     {
@@ -43,8 +44,8 @@ const Gallery: React.FC = () => {
     },
     {
       id: 5,
-      src: "/lovable-uploads/63139a0b-aeac-43fc-84ea-f18c4933c5c4.png",
-      alt: "Open plan living room with kitchen and dining area",
+      src: "/lovable-uploads/fd49a0d6-5f58-402a-a68e-21aab10a8e2d.png",
+      alt: "Modern living space with sectional sofa and open staircase",
       category: "livingrooms"
     },
     {
@@ -67,8 +68,8 @@ const Gallery: React.FC = () => {
     },
     {
       id: 9,
-      src: "/lovable-uploads/9523b9dd-0a31-478c-93a6-c98d36c42f85.png",
-      alt: "Spacious balcony with dining table and panoramic city views",
+      src: "/lovable-uploads/bc8fec62-e3ca-40ff-8173-fc9e95b755d4.png",
+      alt: "Contemporary living room with garden views and minimalist decor",
       category: "livingrooms"
     },
     {
