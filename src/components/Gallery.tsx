@@ -56,14 +56,14 @@ const Gallery: React.FC = () => {
     },
     {
       id: 7,
-      src: "/lovable-uploads/dc9890f1-5bcb-400c-956a-286c8464edd4.png",
-      alt: "Elegant bathroom with natural stone walls and fluted glass shower",
+      src: "/lovable-uploads/8a7d6138-7e2f-4b5d-831b-925fac741d3b.png",
+      alt: "Elegant ensuite bathroom with dual vessel sinks, timber vanity and vertical wall paneling",
       category: "bathrooms"
     },
     {
       id: 8,
-      src: "/lovable-uploads/650e14e6-5c16-4ac5-951c-4162244516cb.png",
-      alt: "Luxury ensuite with double vessel sinks and backlit mirror",
+      src: "/lovable-uploads/2d4a6752-6157-4c40-8780-0762eed4a3aa.png",
+      alt: "Minimalist bathroom with glass shower screen, timber vanity and seamless terrazzo flooring",
       category: "bathrooms"
     },
     {
@@ -86,8 +86,8 @@ const Gallery: React.FC = () => {
     },
     {
       id: 12,
-      src: "/lovable-uploads/46c2d0b0-a244-42de-ad1f-c5e739188d59.png",
-      alt: "Contemporary bathroom with freestanding bath and rainfall shower",
+      src: "/lovable-uploads/3f9207d7-6d6c-4653-abe0-abea99fb1f6e.png",
+      alt: "Spacious bathroom with natural lighting, double vanity and elegant fixtures",
       category: "bathrooms"
     },
     {
