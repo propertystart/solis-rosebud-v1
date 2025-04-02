@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import AnimatedText from './AnimatedText';
 import ImageReveal from './ImageReveal';
@@ -23,12 +22,6 @@ const Gallery: React.FC = () => {
       src: "/lovable-uploads/d35ecfd6-e0ec-4c49-8912-4feff93c4505.png",
       alt: "Spacious open-plan living room with dining area, contemporary furniture and natural light",
       category: "livingrooms"
-    },
-    {
-      id: 2,
-      src: "/lovable-uploads/bd5f2521-70ea-4f72-bce4-c000c9194971.png",
-      alt: "Contemporary kitchen with walnut cabinetry, sea-green backsplash and minimalist pendant lighting",
-      category: "kitchens"
     },
     {
       id: 3,
@@ -71,12 +64,6 @@ const Gallery: React.FC = () => {
       src: "/lovable-uploads/bc8fec62-e3ca-40ff-8173-fc9e95b755d4.png",
       alt: "Contemporary living room with garden views and minimalist decor",
       category: "livingrooms"
-    },
-    {
-      id: 10,
-      src: "/lovable-uploads/bd5f2521-70ea-4f72-bce4-c000c9194971.png",
-      alt: "Designer kitchen with mint-green backsplash, white countertops and breakfast bar seating",
-      category: "kitchens"
     },
     {
       id: 11,
