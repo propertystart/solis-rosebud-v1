@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import AnimatedText from './AnimatedText';
 import ImageReveal from './ImageReveal';
@@ -20,45 +21,84 @@ const FloorPlans: React.FC = () => {
   const [activePlan, setActivePlan] = useState<number | null>(null);
   const [isInView, setIsInView] = useState(false);
   
-  // Floor plan data
+  // Updated floor plan data with new images
   const floorPlans: FloorPlanType[] = [
     {
       id: 1,
-      title: "Apartment G.02",
-      image: "/lovable-uploads/e0788bec-4a9c-4e38-a3a7-6e68dd7ba0bd.png",
+      title: "Residence One",
+      image: "/lovable-uploads/d40319e0-370a-4045-b3a8-5bff395d9d1e.png",
       specs: {
-        bedrooms: 3,
-        bathrooms: 2,
+        bedrooms: 4,
+        bathrooms: 3.5,
         carpark: 2,
-        internalArea: "109sqm",
-        externalArea: "31sqm",
-        totalArea: "140sqm"
+        internalArea: "228.3sqm",
+        externalArea: "174.0sqm",
+        totalArea: "402.3sqm"
       }
     },
     {
       id: 2,
-      title: "Apartment 4.04",
-      image: "/lovable-uploads/b85647b3-07e0-47d6-9714-7b2521b6fa25.png",
+      title: "Residence Two",
+      image: "/lovable-uploads/0ae54b26-c04b-47b5-8935-722fea74443c.png",
       specs: {
-        bedrooms: 2,
-        bathrooms: 2,
-        carpark: 1,
-        internalArea: "84sqm",
-        externalArea: "47sqm",
-        totalArea: "131sqm"
+        bedrooms: 4,
+        bathrooms: 3.5,
+        carpark: 2,
+        internalArea: "248.0sqm",
+        externalArea: "179.0sqm",
+        totalArea: "427.0sqm"
       }
     },
     {
       id: 3,
-      title: "Apartment 1.08",
-      image: "/lovable-uploads/7bfaa2de-6617-453c-bf1d-7116759d7e47.png",
+      title: "Residence Three",
+      image: "/lovable-uploads/82cf0388-899e-47b0-84ff-60f99dee3a7c.png",
       specs: {
-        bedrooms: 1,
-        bathrooms: 1,
-        carpark: 1,
-        internalArea: "53sqm",
-        externalArea: "7sqm",
-        totalArea: "60sqm"
+        bedrooms: 4,
+        bathrooms: 3.5,
+        carpark: 2,
+        internalArea: "255.0sqm",
+        externalArea: "100.9sqm",
+        totalArea: "355.9sqm"
+      }
+    },
+    {
+      id: 4,
+      title: "Residence Eight",
+      image: "/lovable-uploads/efe936fe-72bf-48f3-9321-653b949b793b.png",
+      specs: {
+        bedrooms: 4,
+        bathrooms: 3.5,
+        carpark: 2,
+        internalArea: "240.0sqm",
+        externalArea: "96.0sqm",
+        totalArea: "336.0sqm"
+      }
+    },
+    {
+      id: 5,
+      title: "Residence Ten",
+      image: "/lovable-uploads/fdbd07fe-473a-4153-87c2-00f9d9032c29.png",
+      specs: {
+        bedrooms: 3,
+        bathrooms: 2.5,
+        carpark: 2,
+        internalArea: "183.0sqm",
+        externalArea: "81.0sqm",
+        totalArea: "264.0sqm"
+      }
+    },
+    {
+      id: 6,
+      title: "Residence Sixteen",
+      image: "/lovable-uploads/ae52886c-2f65-4640-bdbf-aa7d1b3c9b55.png",
+      specs: {
+        bedrooms: 3,
+        bathrooms: 2.5,
+        carpark: 2,
+        internalArea: "191.0sqm",
+        externalArea: "106.0sqm",
+        totalArea: "297.0sqm"
       }
     }
   ];
@@ -90,7 +130,7 @@ const FloorPlans: React.FC = () => {
           <AnimatedText
             text="FLOOR PLANS"
             tag="p"
-            className="text-white text-sm tracking-widest"
+            className="text-noir-gold text-sm tracking-widest"
             animation="slide-up"
           />
           <AnimatedText
@@ -100,11 +140,11 @@ const FloorPlans: React.FC = () => {
             animation="slide-up"
             delay={100}
           />
-          <div className="h-px w-16 bg-luxury/30 mx-auto mt-6 mb-6"></div>
+          <div className="h-px w-16 bg-noir-gold/30 mx-auto mt-6 mb-6"></div>
           <AnimatedText
             text="Explore our range of thoughtfully designed floor plans tailored to suit various lifestyle needs."
             tag="p"
-            className="text-white max-w-2xl mx-auto"
+            className="text-gray-300 max-w-2xl mx-auto"
             animation="slide-up"
             delay={200}
           />
@@ -118,15 +158,15 @@ const FloorPlans: React.FC = () => {
               onClick={() => setActivePlan(activePlan === index ? null : index)}
               className={`px-5 py-3 transition-colors duration-300 ${
                 activePlan === index
-                  ? 'bg-luxury text-white'
-                  : 'bg-white border border-gray-200 text-gray-800 hover:bg-gray-100'
+                  ? 'bg-noir-gold text-white'
+                  : 'bg-noir-dark border border-gray-700 text-white hover:bg-noir-gold/20'
               }`}
             >
               <div className="text-left">
-                <div className={`font-medium ${activePlan === index ? 'text-white' : 'text-gray-900'}`}>
+                <div className={`font-medium ${activePlan === index ? 'text-white' : 'text-white'}`}>
                   {plan.title}
                 </div>
-                <div className={`text-sm ${activePlan === index ? 'text-white' : 'text-gray-500'}`}>
+                <div className={`text-sm ${activePlan === index ? 'text-white/80' : 'text-gray-400'}`}>
                   {plan.specs.bedrooms} Bed • {plan.specs.bathrooms} Bath • {plan.specs.totalArea}
                 </div>
               </div>
@@ -144,7 +184,7 @@ const FloorPlans: React.FC = () => {
         {/* Current Floor Plan Display */}
         {activePlan !== null && (
           <div className={`transition-opacity duration-500 ${isInView ? 'opacity-100' : 'opacity-0'}`}>
-            <div className="bg-white shadow-md rounded-sm overflow-hidden">
+            <div className="bg-noir-light shadow-md rounded-sm overflow-hidden">
               <div className="md:flex">
                 {/* Floor Plan Image */}
                 <div className="md:w-3/4">
@@ -158,42 +198,42 @@ const FloorPlans: React.FC = () => {
                 </div>
                 
                 {/* Specifications */}
-                <div className="md:w-1/4 p-6 md:p-8 bg-gray-50">
+                <div className="md:w-1/4 p-6 md:p-8 bg-noir-dark">
                   <h3 className="text-2xl font-light text-white mb-6">
                     {floorPlans[activePlan].title}
                   </h3>
                   
                   <div className="space-y-4 mb-8">
-                    <div className="flex justify-between items-center border-b border-gray-200 pb-2">
-                      <span className="text-white">Bedrooms</span>
+                    <div className="flex justify-between items-center border-b border-gray-700 pb-2">
+                      <span className="text-gray-300">Bedrooms</span>
                       <span className="font-medium text-white">{floorPlans[activePlan].specs.bedrooms}</span>
                     </div>
-                    <div className="flex justify-between items-center border-b border-gray-200 pb-2">
-                      <span className="text-white">Bathrooms</span>
+                    <div className="flex justify-between items-center border-b border-gray-700 pb-2">
+                      <span className="text-gray-300">Bathrooms</span>
                       <span className="font-medium text-white">{floorPlans[activePlan].specs.bathrooms}</span>
                     </div>
-                    <div className="flex justify-between items-center border-b border-gray-200 pb-2">
-                      <span className="text-white">Car Parks</span>
+                    <div className="flex justify-between items-center border-b border-gray-700 pb-2">
+                      <span className="text-gray-300">Car Parks</span>
                       <span className="font-medium text-white">{floorPlans[activePlan].specs.carpark}</span>
                     </div>
-                    <div className="flex justify-between items-center border-b border-gray-200 pb-2">
-                      <span className="text-white">Internal Area</span>
+                    <div className="flex justify-between items-center border-b border-gray-700 pb-2">
+                      <span className="text-gray-300">Internal Area</span>
                       <span className="font-medium text-white">{floorPlans[activePlan].specs.internalArea}</span>
                     </div>
-                    <div className="flex justify-between items-center border-b border-gray-200 pb-2">
-                      <span className="text-white">External Area</span>
+                    <div className="flex justify-between items-center border-b border-gray-700 pb-2">
+                      <span className="text-gray-300">External Area</span>
                       <span className="font-medium text-white">{floorPlans[activePlan].specs.externalArea}</span>
                     </div>
                     <div className="flex justify-between items-center">
-                      <span className="text-white">Total Area</span>
+                      <span className="text-gray-300">Total Area</span>
                       <span className="font-medium text-white">{floorPlans[activePlan].specs.totalArea}</span>
                     </div>
                   </div>
                   
                   <div className="mt-auto">
-                    <div className="bg-luxury/10 p-4 rounded-sm">
+                    <div className="bg-noir-gold/10 p-4 rounded-sm">
                       <h4 className="text-sm font-medium text-white">Legend:</h4>
-                      <ul className="text-sm text-white mt-2 space-y-1">
+                      <ul className="text-sm text-gray-300 mt-2 space-y-1">
                         <li><span className="font-medium">CL</span> - Clothesline</li>
                         <li><span className="font-medium">D</span> - Dishwasher</li>
                         <li><span className="font-medium">F</span> - Fridge</li>
