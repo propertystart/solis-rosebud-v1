@@ -26,7 +26,7 @@ const FloorPlans: React.FC = () => {
     {
       id: 1,
       title: "Residence One",
-      image: "/lovable-uploads/4237fc4d-7a9b-4130-a10b-1c9c026f075b.png",
+      image: "/lovable-uploads/eaf29e42-643b-4e95-a41e-fee7bf1b2549.png",
       specs: {
         bedrooms: 4,
         bathrooms: 3.5,
