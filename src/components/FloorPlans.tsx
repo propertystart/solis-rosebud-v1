@@ -186,13 +186,13 @@ const FloorPlans: React.FC = () => {
           <div className={`transition-opacity duration-500 ${isInView ? 'opacity-100' : 'opacity-0'}`}>
             <div className="bg-noir-light shadow-md rounded-sm overflow-hidden">
               <div className="md:flex">
-                {/* Floor Plan Image */}
+                {/* Floor Plan Image - Updated to prevent cropping */}
                 <div className="md:w-3/4">
                   <ImageReveal
                     src={floorPlans[activePlan].image}
                     alt={`Floor plan for ${floorPlans[activePlan].title}`}
-                    aspectRatio="aspect-auto"
-                    className="w-full h-full"
+                    aspectRatio="aspect-auto" 
+                    className="w-full h-full object-contain" 
                     animation="fade"
                   />
                 </div>
