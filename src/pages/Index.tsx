@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
@@ -10,6 +9,7 @@ import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import ImageReveal from '@/components/ImageReveal';
 import AnimatedText from '@/components/AnimatedText';
+import { MapPin, Home, Beach, Building, Compass, Car, Mountain, Wine, School, Store, Coffee } from 'lucide-react';
 
 const Index = () => {
   // Smooth scroll to sections when clicking on navigation links
@@ -109,13 +109,20 @@ const Index = () => {
             animation="slide-up"
           />
           <AnimatedText
-            text="23 Rosebud Parade, Rosebud, Vic 3939"
+            text="Stylish Coastal Townhouses in the Heart of Rosebud"
             tag="h2"
             className="text-3xl md:text-4xl font-light text-white tracking-tight mt-3"
             animation="slide-up"
             delay={100}
           />
           <div className="h-px w-16 bg-noir-gold/30 mx-auto mt-6 mb-6"></div>
+          <AnimatedText
+            text="Where Beachside Living Meets Modern Comfort"
+            tag="p"
+            className="text-xl text-gray-300 max-w-3xl mx-auto"
+            animation="slide-up"
+            delay={150}
+          />
         </div>
 
         <div className="max-w-4xl mx-auto mb-12">
@@ -128,305 +135,121 @@ const Index = () => {
           />
         </div>
         
-        {/* Community Lifestyle Image */}
-        <div className="max-w-4xl mx-auto mb-12">
-          <div className="bg-noir-light p-6 rounded-sm shadow-lg">
-            <ImageReveal
-              src="/lovable-uploads/4d94bb69-1b2c-4300-99e5-cd3841beae9c.png"
-              alt="Community lifestyle at Solis Rosebud"
-              className="w-full rounded-sm shadow-inner"
-              aspectRatio="aspect-[16/9]"
-              animation="slide-up"
-            />
-            <div className="mt-6 text-center">
-              <h3 className="text-xl font-light text-white">Community Living at Solis Rosebud</h3>
-              <p className="text-gray-400 mt-2">Enjoy the perfect blend of urban convenience and relaxed community living</p>
-            </div>
-          </div>
+        {/* Introduction */}
+        <div className="max-w-4xl mx-auto mb-16 text-center">
+          <p className="text-white text-lg leading-relaxed mb-8">
+            Step into a new chapter of effortless living with these brand-new, architecturally designed townhouses nestled in the vibrant heart of Rosebud. Perfect for first-home buyers, downsizers, or savvy investors, this boutique development delivers the ultimate blend of sleek contemporary style and relaxed coastal charm—just moments from the beach.
+          </p>
         </div>
         
-        {/* Amenities Section */}
-        <div className="max-w-4xl mx-auto bg-noir-light shadow-lg rounded-sm overflow-hidden mb-12">
-          <div className="p-8 md:p-10">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-              {/* Schools Column */}
-              <div className="space-y-6 reveal reveal-delay-1">
-                <h3 className="text-xl font-medium text-noir-gold border-b border-noir-gold/30 pb-2">SCHOOLS</h3>
-                <ul className="space-y-3 text-gray-300">
-                  <li className="flex justify-between">
-                    <span>Rosebud High School</span>
-                    <span className="text-noir-gold">1 km</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Rosebud South Primary School</span>
-                    <span className="text-noir-gold">1 km</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Rosebud Secondary College</span>
-                    <span className="text-noir-gold">2.2 km</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>St John's College Rosebud</span>
-                    <span className="text-noir-gold">200 m</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Rosebud North East Primary School</span>
-                    <span className="text-noir-gold">3.9 km</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Sacred Heart Primary School</span>
-                    <span className="text-noir-gold">500 m</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Rosebud West Primary School</span>
-                    <span className="text-noir-gold">1.2 km</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Bell Primary School</span>
-                    <span className="text-noir-gold">2.2 km</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Rosebud Primary School</span>
-                    <span className="text-noir-gold">2.9 km</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>St. Raphael's Primary School</span>
-                    <span className="text-noir-gold">1.8 km</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Gower St Kindergarten</span>
-                    <span className="text-noir-gold">1.9 km</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Inspire Early Learning Journey Rosebud</span>
-                    <span className="text-noir-gold">2.1 km</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Parade College</span>
-                    <span className="text-noir-gold">600 m</span>
-                  </li>
-                </ul>
-              </div>
-              
-              {/* Shopping & Medical Column */}
-              <div className="space-y-6">
-                <div className="reveal reveal-delay-2">
-                  <h3 className="text-xl font-medium text-noir-gold border-b border-noir-gold/30 pb-2">SHOPPING</h3>
-                  <ul className="space-y-3 text-gray-300 mt-3">
-                    <li className="flex justify-between">
-                      <span>Rosebud Plaza Shopping Centre</span>
-                      <span className="text-noir-gold">3.4 km</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Rosebud South Shopping Centre</span>
-                      <span className="text-noir-gold">1.4 km</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Rosebud Central</span>
-                      <span className="text-noir-gold">750 m</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Rosebud Market</span>
-                      <span className="text-noir-gold">1 km</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Beachcomber Shopping Centre</span>
-                      <span className="text-noir-gold">3.3 km</span>
-                    </li>
-                  </ul>
-                </div>
-                
-                <div className="reveal reveal-delay-3">
-                  <h3 className="text-xl font-medium text-noir-gold border-b border-noir-gold/30 pb-2">MEDICAL</h3>
-                  <ul className="space-y-3 text-gray-300 mt-3">
-                    <li className="flex justify-between">
-                      <span>Rosebud Medical & Dental Centre</span>
-                      <span className="text-noir-gold">1.7 km</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Rosebud Family Medical</span>
-                      <span className="text-noir-gold">700 m</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Rosebud Market Medical Centre</span>
-                      <span className="text-noir-gold">1.4 km</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Complete Care Rosebud</span>
-                      <span className="text-noir-gold">3.4 km</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Peninsula Medical Centre</span>
-                      <span className="text-noir-gold">3.5 km</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Rosebud Medical Specialists</span>
-                      <span className="text-noir-gold">2.4 km</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Peninsula Health Medical Centre</span>
-                      <span className="text-noir-gold">1.3 km</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Rosebud Hospital</span>
-                      <span className="text-noir-gold">5.6 km</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Peninsula Private Hospital</span>
-                      <span className="text-noir-gold">5.4 km</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+        {/* Main Content Sections */}
+        <div className="max-w-4xl mx-auto space-y-16">
+          {/* Location Highlights */}
+          <div className="bg-noir-light p-8 md:p-10 rounded-sm shadow-lg border border-noir-gold/20">
+            <div className="flex items-center mb-6">
+              <MapPin className="h-6 w-6 text-noir-gold mr-3" />
+              <h3 className="text-2xl font-light text-white">The Location – A Coastal Culture with City Convenience</h3>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10">
-              {/* Parks Column */}
-              <div className="space-y-6 reveal reveal-delay-4">
-                <h3 className="text-xl font-medium text-noir-gold border-b border-noir-gold/30 pb-2">PARKS</h3>
-                <ul className="space-y-3 text-gray-300">
-                  <li className="flex justify-between">
-                    <span>Rosebud Foreshore</span>
-                    <span className="text-noir-gold">350 m</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Rosebud Bay Beach</span>
-                    <span className="text-noir-gold">2.7 km</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Arthurs Seat State Park</span>
-                    <span className="text-noir-gold">1.4 km</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Waterfall Gully Reserve</span>
-                    <span className="text-noir-gold">2.8 km</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Rosebud Pier</span>
-                    <span className="text-noir-gold">1.3 km</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Rosebud Recreation Reserve</span>
-                    <span className="text-noir-gold">900 m</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Waterfall Gardens</span>
-                    <span className="text-noir-gold">2.2 km</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Drummond Reserve</span>
-                    <span className="text-noir-gold">2.0 km</span>
-                  </li>
-                </ul>
+            <p className="text-gray-300 leading-relaxed mb-8">
+              A Peninsula lifestyle has never been so enjoyable, with every indulgence at your doorstep. Located within walking distance to Rosebud's celebrated restaurants and cafés, buzzing bars, cinemas, and boutique shopping, and just a short stroll to the picturesque foreshore, these townhouses offer a life that's both tranquil and connected.
+            </p>
+            
+            <p className="text-gray-300 leading-relaxed mb-8">
+              With immediate access to local schools, Rosebud Plaza, and the Mornington Peninsula Freeway, you'll be just over an hour from Melbourne's CBD. This is the ultimate gateway to weekend adventures—think hiking, fishing, golfing, artisan markets, award-winning wineries, and breathtaking nature reserves.
+            </p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
+              <div className="bg-noir p-6 rounded-sm border border-noir-gold/10 hover:border-noir-gold/30 transition-all reveal reveal-delay-1">
+                <Beach className="h-10 w-10 text-noir-gold mb-4" />
+                <h4 className="text-lg font-medium text-white mb-2">Beach Lifestyle</h4>
+                <p className="text-gray-400">Just a short stroll to Rosebud's picturesque foreshore and sandy beaches</p>
               </div>
               
-              {/* Points of Interest & Walkability */}
-              <div className="space-y-6">
-                <div className="reveal reveal-delay-5">
-                  <h3 className="text-xl font-medium text-noir-gold border-b border-noir-gold/30 pb-2">POINTS OF INTEREST</h3>
-                  <ul className="space-y-3 text-gray-300 mt-3">
-                    <li className="flex justify-between">
-                      <span>Rosebud Library</span>
-                      <span className="text-noir-gold">1.6 km</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Rosebud Pier</span>
-                      <span className="text-noir-gold">1.2 km</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Rosebud Community Centre</span>
-                      <span className="text-noir-gold">4.0 km</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Peninsula Hot Springs</span>
-                      <span className="text-noir-gold">8.3 km</span>
-                    </li>
-                  </ul>
-                </div>
-                
-                <div className="bg-noir-gold/10 p-6 rounded-sm mt-6 border border-noir-gold/20 reveal reveal-delay-6">
-                  <h3 className="text-xl font-medium text-white mb-2">Walkability Score: <span className="text-noir-gold">92</span></h3>
-                  <p className="text-gray-300">Most daily errands can be done without a car</p>
-                </div>
+              <div className="bg-noir p-6 rounded-sm border border-noir-gold/10 hover:border-noir-gold/30 transition-all reveal reveal-delay-2">
+                <Coffee className="h-10 w-10 text-noir-gold mb-4" />
+                <h4 className="text-lg font-medium text-white mb-2">Vibrant Culture</h4>
+                <p className="text-gray-400">Walking distance to celebrated restaurants, cafés, bars, and boutique shopping</p>
+              </div>
+              
+              <div className="bg-noir p-6 rounded-sm border border-noir-gold/10 hover:border-noir-gold/30 transition-all reveal reveal-delay-3">
+                <Car className="h-10 w-10 text-noir-gold mb-4" />
+                <h4 className="text-lg font-medium text-white mb-2">Easy Access</h4>
+                <p className="text-gray-400">Immediate access to Mornington Peninsula Freeway, just over an hour from Melbourne CBD</p>
               </div>
             </div>
           </div>
-        </div>
-        
-        <div className="max-w-4xl mx-auto bg-noir-light shadow-lg rounded-sm overflow-hidden">
-          <div className="p-8 md:p-10 space-y-8">
-            <AnimatedText
-              text="Invest in Rosebud, Mornington Peninsula – A Prime Opportunity for High Rental Yields!"
-              tag="h3"
-              className="text-2xl font-medium text-white text-center"
-              animation="slide-up"
-              delay={150}
-            />
-            
-            <AnimatedText
-              text="Rosebud is rapidly emerging as one of Mornington Peninsula's most promising investment hotspots, offering exceptional opportunities for property investors seeking strong rental yields, capital growth, and long-term stability."
-              tag="p"
-              className="text-gray-300 leading-relaxed"
-              animation="slide-up"
-              delay={200}
-            />
-            
-            <div className="mt-8">
-              <AnimatedText
-                text="Why Invest in Rosebud?"
-                tag="h4"
-                className="text-xl font-medium text-noir-gold mb-4"
+          
+          {/* Community Image */}
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-noir-light p-6 rounded-sm shadow-lg">
+              <ImageReveal
+                src="/lovable-uploads/4d94bb69-1b2c-4300-99e5-cd3841beae9c.png"
+                alt="Community lifestyle at Solis Rosebud"
+                className="w-full rounded-sm shadow-inner"
+                aspectRatio="aspect-[16/9]"
                 animation="slide-up"
-                delay={250}
               />
-              
-              <div className="space-y-5">
-                <div className="flex items-start gap-4 reveal reveal-delay-1">
-                  <span className="text-noir-gold text-xl flex-shrink-0">✅</span>
-                  <div>
-                    <span className="font-medium text-white">High Rental Demand</span>
-                    <p className="text-gray-300 mt-1">With its proximity to Melbourne, excellent access to beaches, and thriving local economy, Rosebud attracts a diverse tenant base, including young professionals, retirees, and families.</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start gap-4 reveal reveal-delay-2">
-                  <span className="text-noir-gold text-xl flex-shrink-0">✅</span>
-                  <div>
-                    <span className="font-medium text-white">Strong Rental Yields</span>
-                    <p className="text-gray-300 mt-1">Investors can expect above-average rental returns due to the increasing demand for quality apartments. With the Mornington Peninsula's rental market tightening, properties in Rosebud are achieving low vacancy rates and competitive rental prices.</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start gap-4 reveal reveal-delay-3">
-                  <span className="text-noir-gold text-xl flex-shrink-0">✅</span>
-                  <div>
-                    <span className="font-medium text-white">Capital Growth Potential</span>
-                    <p className="text-gray-300 mt-1">As one of Mornington Peninsula's fastest-growing suburbs, Rosebud has seen significant property value appreciation over the years. With continued infrastructure developments, modern amenities, and lifestyle upgrades, capital growth prospects remain strong.</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start gap-4 reveal reveal-delay-4">
-                  <span className="text-noir-gold text-xl flex-shrink-0">✅</span>
-                  <div>
-                    <span className="font-medium text-white">Lifestyle & Connectivity</span>
-                    <p className="text-gray-300 mt-1">Rosebud offers a vibrant mix of café culture, shopping districts, beautiful beaches, and entertainment options, making it an attractive place to live. The suburb also boasts excellent transport links, ensuring seamless connectivity to Melbourne and surrounding areas.</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start gap-4 reveal reveal-delay-5">
-                  <span className="text-noir-gold text-xl flex-shrink-0">✅</span>
-                  <div>
-                    <span className="font-medium text-white">Affordable Investment Entry Point</span>
-                    <p className="text-gray-300 mt-1">Compared to neighboring beach suburbs, Rosebud provides affordable apartment prices while still delivering strong rental yields—a perfect combination for savvy investors looking for the best of both worlds.</p>
-                  </div>
-                </div>
+              <div className="mt-6 text-center">
+                <h3 className="text-xl font-light text-white">Community Living at Solis Rosebud</h3>
+                <p className="text-gray-400 mt-2">Enjoy the perfect blend of urban convenience and relaxed coastal living</p>
               </div>
             </div>
-            
-            <div className="mt-8 bg-noir-gold/10 p-6 rounded-sm reveal reveal-delay-6 border border-noir-gold/20">
-              <h4 className="text-xl font-medium text-white mb-2">The Time to Invest is Now!</h4>
-              <p className="text-gray-300">With rising rental demand, increasing property values, and continued suburban revitalization, Rosebud is an outstanding location to secure a high-performing investment property. Whether you're a first-time investor or expanding your portfolio, this is your chance to capitalize on one of Mornington Peninsula's most promising suburbs.</p>
+          </div>
+          
+          {/* Smart Investment */}
+          <div className="bg-noir-light p-8 md:p-10 rounded-sm shadow-lg border border-noir-gold/20">
+            <div className="flex items-center mb-6">
+              <Home className="h-6 w-6 text-noir-gold mr-3" />
+              <h3 className="text-2xl font-light text-white">A Smart Move – Buy Off the Plan & Save</h3>
             </div>
+            
+            <p className="text-gray-300 leading-relaxed mb-8">
+              Take advantage of generous stamp duty savings by purchasing off the plan. This is a rare opportunity to invest early and maximise value in one of the Mornington Peninsula's most sought-after lifestyle destinations.
+            </p>
+            
+            <div className="bg-noir-gold/10 p-6 rounded-sm border border-noir-gold/20 mt-6 reveal reveal-delay-4">
+              <h4 className="text-xl font-medium text-white mb-3">Effortless Living, Exceptional Lifestyle</h4>
+              <p className="text-gray-300 leading-relaxed">
+                Each townhouse showcases light-filled open-plan living, premium finishes, and low-maintenance outdoor spaces—designed to suit modern lifestyles with a relaxed, coastal twist. Whether it's morning walks on the sand, long lunches by the sea, or wine weekends in the hinterland, this is living at its absolute best.
+              </p>
+            </div>
+          </div>
+          
+          {/* Lifestyle Icons */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+            <div className="text-center reveal reveal-delay-1">
+              <div className="rounded-full bg-noir-light p-4 inline-flex items-center justify-center mb-3 border border-noir-gold/20">
+                <Beach className="h-8 w-8 text-noir-gold" />
+              </div>
+              <p className="text-white">Beach Access</p>
+            </div>
+            <div className="text-center reveal reveal-delay-2">
+              <div className="rounded-full bg-noir-light p-4 inline-flex items-center justify-center mb-3 border border-noir-gold/20">
+                <Store className="h-8 w-8 text-noir-gold" />
+              </div>
+              <p className="text-white">Shopping</p>
+            </div>
+            <div className="text-center reveal reveal-delay-3">
+              <div className="rounded-full bg-noir-light p-4 inline-flex items-center justify-center mb-3 border border-noir-gold/20">
+                <School className="h-8 w-8 text-noir-gold" />
+              </div>
+              <p className="text-white">Schools</p>
+            </div>
+            <div className="text-center reveal reveal-delay-4">
+              <div className="rounded-full bg-noir-light p-4 inline-flex items-center justify-center mb-3 border border-noir-gold/20">
+                <Wine className="h-8 w-8 text-noir-gold" />
+              </div>
+              <p className="text-white">Wineries</p>
+            </div>
+          </div>
+          
+          {/* CTA */}
+          <div className="text-center mt-12 max-w-xl mx-auto reveal reveal-delay-1">
+            <h3 className="text-2xl font-light text-white mb-6">Experience the Rosebud Lifestyle</h3>
+            <a href="#contact" className="inline-block px-8 py-3 bg-noir-gold text-noir-dark font-medium rounded-sm hover:bg-noir-gold2 transition-colors">
+              Contact Us Today
+            </a>
           </div>
         </div>
       </section>
