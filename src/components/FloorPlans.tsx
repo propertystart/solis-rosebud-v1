@@ -26,7 +26,7 @@ const FloorPlans: React.FC = () => {
     {
       id: 1,
       title: "Residence One",
-      image: "/lovable-uploads/2372da53-fe16-4399-86bf-afd013912415.png",
+      image: "/lovable-uploads/Floor-Plan-1.jpg",
       specs: {
         bedrooms: 4,
         bathrooms: 3.5,
@@ -39,7 +39,7 @@ const FloorPlans: React.FC = () => {
     {
       id: 2,
       title: "Residence Two",
-      image: "/lovable-uploads/0ae54b26-c04b-47b5-8935-722fea74443c.png",
+      image: "/lovable-uploads/Floor-Plan-2.jpg",
       specs: {
         bedrooms: 4,
         bathrooms: 3.5,
@@ -52,7 +52,7 @@ const FloorPlans: React.FC = () => {
     {
       id: 3,
       title: "Residence Three",
-      image: "/lovable-uploads/82cf0388-899e-47b0-84ff-60f99dee3a7c.png",
+      image: "/lovable-uploads/Floor-Plan-3.jpg",
       specs: {
         bedrooms: 4,
         bathrooms: 3.5,
@@ -65,7 +65,7 @@ const FloorPlans: React.FC = () => {
     {
       id: 4,
       title: "Residence Eight",
-      image: "/lovable-uploads/efe936fe-72bf-48f3-9321-653b949b793b.png",
+      image: "/lovable-uploads/Floor-Plan-8.jpg",
       specs: {
         bedrooms: 4,
         bathrooms: 3.5,
@@ -78,7 +78,7 @@ const FloorPlans: React.FC = () => {
     {
       id: 5,
       title: "Residence Ten",
-      image: "/lovable-uploads/fdbd07fe-473a-4153-87c2-00f9d9032c29.png",
+      image: "/lovable-uploads/Floor-Plan-10.jpg",
       specs: {
         bedrooms: 3,
         bathrooms: 2.5,
@@ -91,7 +91,7 @@ const FloorPlans: React.FC = () => {
     {
       id: 6,
       title: "Residence Sixteen",
-      image: "/lovable-uploads/77937997-5f14-4102-9e71-8e3e1de8cfa0.png",
+      image: "/lovable-uploads/Floor-Plan-16.jpg",
       specs: {
         bedrooms: 3,
         bathrooms: 2.5,
