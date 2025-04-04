@@ -1,3 +1,4 @@
+
 import React, { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
@@ -9,6 +10,7 @@ import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import ImageReveal from '@/components/ImageReveal';
 import AnimatedText from '@/components/AnimatedText';
+import LocationAmenities from '@/components/LocationAmenities';
 import { MapPin, Home, Umbrella, Building, Compass, Car, Mountain, Wine, School, Store, Coffee } from 'lucide-react';
 
 const Index = () => {
@@ -171,6 +173,9 @@ const Index = () => {
               </div>
             </div>
           </div>
+          
+          {/* Add the new LocationAmenities component */}
+          <LocationAmenities />
           
           <div className="max-w-4xl mx-auto">
             <div className="bg-noir-light p-6 rounded-sm shadow-lg">
