@@ -9,10 +9,9 @@ import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import ImageReveal from '@/components/ImageReveal';
 import AnimatedText from '@/components/AnimatedText';
-import { MapPin, Home, Beach, Building, Compass, Car, Mountain, Wine, School, Store, Coffee } from 'lucide-react';
+import { MapPin, Home, Umbrella, Building, Compass, Car, Mountain, Wine, School, Store, Coffee } from 'lucide-react';
 
 const Index = () => {
-  // Smooth scroll to sections when clicking on navigation links
   useEffect(() => {
     const handleNavLinkClick = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
@@ -42,7 +41,6 @@ const Index = () => {
     };
   }, []);
 
-  // Reveal animations on scroll
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -63,7 +61,6 @@ const Index = () => {
     };
   }, []);
 
-  // Lazy loading images
   useEffect(() => {
     const lazyImages = document.querySelectorAll('.lazy-img');
     
@@ -81,7 +78,6 @@ const Index = () => {
       
       lazyImages.forEach((img) => imageObserver.observe(img));
     } else {
-      // Fallback for browsers without IntersectionObserver support
       lazyImages.forEach((img) => {
         const imgEl = img as HTMLImageElement;
         imgEl.src = imgEl.dataset.src || '';
@@ -99,7 +95,6 @@ const Index = () => {
       <FittingsFinishes />
       <FloorPlans />
       
-      {/* Location Section */}
       <section id="location" className="py-20 md:py-32 px-6 md:px-12 max-w-7xl mx-auto bg-noir">
         <div className="text-center mb-12">
           <AnimatedText
@@ -135,16 +130,13 @@ const Index = () => {
           />
         </div>
         
-        {/* Introduction */}
         <div className="max-w-4xl mx-auto mb-16 text-center">
           <p className="text-white text-lg leading-relaxed mb-8">
             Step into a new chapter of effortless living with these brand-new, architecturally designed townhouses nestled in the vibrant heart of Rosebud. Perfect for first-home buyers, downsizers, or savvy investors, this boutique development delivers the ultimate blend of sleek contemporary style and relaxed coastal charm—just moments from the beach.
           </p>
         </div>
         
-        {/* Main Content Sections */}
         <div className="max-w-4xl mx-auto space-y-16">
-          {/* Location Highlights */}
           <div className="bg-noir-light p-8 md:p-10 rounded-sm shadow-lg border border-noir-gold/20">
             <div className="flex items-center mb-6">
               <MapPin className="h-6 w-6 text-noir-gold mr-3" />
@@ -161,7 +153,7 @@ const Index = () => {
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
               <div className="bg-noir p-6 rounded-sm border border-noir-gold/10 hover:border-noir-gold/30 transition-all reveal reveal-delay-1">
-                <Beach className="h-10 w-10 text-noir-gold mb-4" />
+                <Umbrella className="h-10 w-10 text-noir-gold mb-4" />
                 <h4 className="text-lg font-medium text-white mb-2">Beach Lifestyle</h4>
                 <p className="text-gray-400">Just a short stroll to Rosebud's picturesque foreshore and sandy beaches</p>
               </div>
@@ -180,7 +172,6 @@ const Index = () => {
             </div>
           </div>
           
-          {/* Community Image */}
           <div className="max-w-4xl mx-auto">
             <div className="bg-noir-light p-6 rounded-sm shadow-lg">
               <ImageReveal
@@ -197,7 +188,6 @@ const Index = () => {
             </div>
           </div>
           
-          {/* Smart Investment */}
           <div className="bg-noir-light p-8 md:p-10 rounded-sm shadow-lg border border-noir-gold/20">
             <div className="flex items-center mb-6">
               <Home className="h-6 w-6 text-noir-gold mr-3" />
@@ -216,11 +206,10 @@ const Index = () => {
             </div>
           </div>
           
-          {/* Lifestyle Icons */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
             <div className="text-center reveal reveal-delay-1">
               <div className="rounded-full bg-noir-light p-4 inline-flex items-center justify-center mb-3 border border-noir-gold/20">
-                <Beach className="h-8 w-8 text-noir-gold" />
+                <Umbrella className="h-8 w-8 text-noir-gold" />
               </div>
               <p className="text-white">Beach Access</p>
             </div>
@@ -244,7 +233,6 @@ const Index = () => {
             </div>
           </div>
           
-          {/* CTA */}
           <div className="text-center mt-12 max-w-xl mx-auto reveal reveal-delay-1">
             <h3 className="text-2xl font-light text-white mb-6">Experience the Rosebud Lifestyle</h3>
             <a href="#contact" className="inline-block px-8 py-3 bg-noir-gold text-noir-dark font-medium rounded-sm hover:bg-noir-gold2 transition-colors">
