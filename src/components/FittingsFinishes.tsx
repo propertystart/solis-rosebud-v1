@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import AnimatedText from './AnimatedText';
 import { cn } from '@/lib/utils';
@@ -35,7 +34,6 @@ const FittingsFinishes: React.FC = () => {
     setActiveTab(prev => prev === value as SpecificationCategory ? null : value as SpecificationCategory);
   };
 
-  // Define the specifications data based on the images
   const specificationData: Record<SpecificationCategory, SpecificationItem[]> = {
     general: [
       { item: 'INSURANCE', description: 'HOUSING INDEMNITY INSURANCE' },
@@ -175,7 +173,6 @@ const FittingsFinishes: React.FC = () => {
     ],
   };
 
-  // Maps for icons and titles
   const categoryIcons: Record<SpecificationCategory, React.ReactNode> = {
     general: <FileSpreadsheet className="h-5 w-5" />,
     underground: <Wrench className="h-5 w-5" />,
@@ -237,37 +234,6 @@ const FittingsFinishes: React.FC = () => {
             animation="slide-up"
             delay={200}
           />
-        </div>
-
-        {/* Display the three specification images */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
-          <div className="aspect-auto overflow-hidden rounded-sm border border-noir-gold/20">
-            <ImageReveal 
-              src="/lovable-uploads/787fb7f8-d525-4393-89a3-91454aca003d.png" 
-              alt="Solis Rosebud Specifications Sheet 1"
-              className="w-full h-full object-contain"
-              aspectRatio="aspect-auto"
-              animation="fade"
-            />
-          </div>
-          <div className="aspect-auto overflow-hidden rounded-sm border border-noir-gold/20">
-            <ImageReveal 
-              src="/lovable-uploads/2c1397b1-fd20-4697-ab55-b21f7ce11748.png" 
-              alt="Solis Rosebud Specifications Sheet 2"
-              className="w-full h-full object-contain"
-              aspectRatio="aspect-auto"
-              animation="fade"
-            />
-          </div>
-          <div className="aspect-auto overflow-hidden rounded-sm border border-noir-gold/20">
-            <ImageReveal 
-              src="/lovable-uploads/15d8c0bb-15fa-4209-8a39-646b6afc9691.png" 
-              alt="Solis Rosebud Specifications Sheet 3"
-              className="w-full h-full object-contain"
-              aspectRatio="aspect-auto"
-              animation="fade"
-            />
-          </div>
         </div>
         
         <Tabs value={activeTab || ""} onValueChange={handleTabChange} className="w-full">
@@ -374,14 +340,12 @@ const FittingsFinishes: React.FC = () => {
             </TabsList>
           </div>
 
-          {/* Message when no tab is selected */}
           {!activeTab && (
             <div className="text-center my-16">
               <p className="text-white text-lg">Please select a category to view detailed specifications.</p>
             </div>
           )}
 
-          {/* Generate tab content for each category */}
           {Object.keys(specificationData).map((category) => (
             <TabsContent key={category} value={category} className="mt-4">
               <div className="bg-noir-dark rounded-sm shadow-md overflow-hidden border border-noir-gold/20">
