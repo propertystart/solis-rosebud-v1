@@ -21,7 +21,7 @@ const FloorPlans: React.FC = () => {
   const [activePlan, setActivePlan] = useState<number | null>(null);
   const [isInView, setIsInView] = useState(false);
   
-  // Updated floor plan data with renamed Residence One to Residences 1,9,20
+  // Updated floor plan data with renamed Residence Sixteen to Residences 16,17,18,19
   const floorPlans: FloorPlanType[] = [
     {
       id: 1,
@@ -90,7 +90,7 @@ const FloorPlans: React.FC = () => {
     },
     {
       id: 6,
-      title: "Residence Sixteen",
+      title: "Residences 16,17,18,19",
       image: "/lovable-uploads/Floor-Plan-16.jpg",
       specs: {
         bedrooms: 3,
