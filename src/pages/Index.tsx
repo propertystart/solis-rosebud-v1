@@ -173,6 +173,141 @@ const Index = () => {
               </div>
             </div>
           </div>
+
+{/* Amenities Section */}
+         <div className="max-w-4xl mx-auto bg-noir-light shadow-lg rounded-sm overflow-hidden mb-12">
+           <div className="p-8 md:p-10">
+             <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+               {/* Schools Column */}
+               <div className="space-y-6 reveal reveal-delay-1">
+                 <h3 className="text-xl font-medium text-noir-gold border-b border-noir-gold/30 pb-2">SCHOOLS</h3>
+                 <ul className="space-y-3 text-gray-300">
+                   <li className="flex justify-between">
+                     <span>Rosebud High School</span>
+                     <span className="text-noir-gold">1 km</span>
+                   </li>
+                   <li className="flex justify-between">
+                     <span>Rosebud South Primary School</span>
+                     <span className="text-noir-gold">1 km</span>
+                   </li>
+                   <li className="flex justify-between">
+                     <span>Rosebud Secondary College</span>
+                     <span className="text-noir-gold">2.2 km</span>
+                   </li>
+                   <li className="flex justify-between">
+                     <span>St John's College Rosebud</span>
+                     <span className="text-noir-gold">200 m</span>
+                   </li>
+                   <li className="flex justify-between">
+                     <span>Rosebud North East Primary School</span>
+                     <span className="text-noir-gold">3.9 km</span>
+                   </li>
+                   <li className="flex justify-between">
+                     <span>Sacred Heart Primary School</span>
+                     <span className="text-noir-gold">500 m</span>
+                   </li>
+                   <li className="flex justify-between">
+                     <span>Rosebud West Primary School</span>
+                     <span className="text-noir-gold">1.2 km</span>
+                   </li>
+                   <li className="flex justify-between">
+                     <span>Bell Primary School</span>
+                     <span className="text-noir-gold">2.2 km</span>
+                   </li>
+                   <li className="flex justify-between">
+                     <span>Rosebud Primary School</span>
+                     <span className="text-noir-gold">2.9 km</span>
+                   </li>
+                   <li className="flex justify-between">
+                     <span>St. Raphael's Primary School</span>
+                     <span className="text-noir-gold">1.8 km</span>
+                   </li>
+                   <li className="flex justify-between">
+                     <span>Gower St Kindergarten</span>
+                     <span className="text-noir-gold">1.9 km</span>
+                   </li>
+                   <li className="flex justify-between">
+                     <span>Inspire Early Learning Journey Rosebud</span>
+                     <span className="text-noir-gold">2.1 km</span>
+                   </li>
+                   <li className="flex justify-between">
+                     <span>Parade College</span>
+                     <span className="text-noir-gold">600 m</span>
+                   </li>
+                 </ul>
+               </div>
+               
+               {/* Shopping & Medical Column */}
+               <div className="space-y-6">
+                 <div className="reveal reveal-delay-2">
+                   <h3 className="text-xl font-medium text-noir-gold border-b border-noir-gold/30 pb-2">SHOPPING</h3>
+                   <ul className="space-y-3 text-gray-300 mt-3">
+                     <li className="flex justify-between">
+                       <span>Rosebud Plaza Shopping Centre</span>
+                       <span className="text-noir-gold">3.4 km</span>
+                     </li>
+                     <li className="flex justify-between">
+                       <span>Rosebud South Shopping Centre</span>
+                       <span className="text-noir-gold">1.4 km</span>
+                     </li>
+                     <li className="flex justify-between">
+                       <span>Rosebud Central</span>
+                       <span className="text-noir-gold">750 m</span>
+                     </li>
+                     <li className="flex justify-between">
+                       <span>Rosebud Market</span>
+                       <span className="text-noir-gold">1 km</span>
+                     </li>
+                     <li className="flex justify-between">
+                       <span>Beachcomber Shopping Centre</span>
+                       <span className="text-noir-gold">3.3 km</span>
+                     </li>
+                   </ul>
+                 </div>
+                 
+                 <div className="reveal reveal-delay-3">
+                   <h3 className="text-xl font-medium text-noir-gold border-b border-noir-gold/30 pb-2">MEDICAL</h3>
+                   <ul className="space-y-3 text-gray-300 mt-3">
+                     <li className="flex justify-between">
+                       <span>Rosebud Medical & Dental Centre</span>
+                       <span className="text-noir-gold">1.7 km</span>
+                     </li>
+                     <li className="flex justify-between">
+                       <span>Rosebud Family Medical</span>
+                       <span className="text-noir-gold">700 m</span>
+                     </li>
+                     <li className="flex justify-between">
+                       <span>Rosebud Market Medical Centre</span>
+                       <span className="text-noir-gold">1.4 km</span>
+                     </li>
+                     <li className="flex justify-between">
+                       <span>Complete Care Rosebud</span>
+                       <span className="text-noir-gold">3.4 km</span>
+                     </li>
+                     <li className="flex justify-between">
+                       <span>Peninsula Medical Centre</span>
+                       <span className="text-noir-gold">3.5 km</span>
+                     </li>
+                     <li className="flex justify-between">
+                       <span>Rosebud Medical Specialists</span>
+                       <span className="text-noir-gold">2.4 km</span>
+                     </li>
+                     <li className="flex justify-between">
+                       <span>Peninsula Health Medical Centre</span>
+                       <span className="text-noir-gold">1.3 km</span>
+                     </li>
+                     <li className="flex justify-between">
+                       <span>Rosebud Hospital</span>
+                       <span className="text-noir-gold">5.6 km</span>
+                     </li>
+                     <li className="flex justify-between">
+                       <span>Peninsula Private Hospital</span>
+                       <span className="text-noir-gold">5.4 km</span>
+                     </li>
+                   </ul>
+                 </div>
+               </div>
+
           
           {/* Add the new LocationAmenities component */}
           <LocationAmenities />
