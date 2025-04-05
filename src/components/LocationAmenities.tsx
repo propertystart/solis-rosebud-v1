@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Table, TableBody, TableCell, TableHeader, TableHead, TableRow } from "@/components/ui/table";
-import { School, ShoppingBag, Stethoscope, Tree, Compass } from "lucide-react";
+import { School, ShoppingBag, Stethoscope, Trees, Compass } from "lucide-react";
 
 interface AmenityItem {
   name: string;
@@ -63,7 +62,7 @@ const LocationAmenities = () => {
     },
     {
       title: "PARKS",
-      icon: Tree,
+      icon: Trees,
       items: [
         { name: "Rosebud Foreshore", distance: "350 m" },
         { name: "Rosebud Bay Beach", distance: "2.7 km" },
