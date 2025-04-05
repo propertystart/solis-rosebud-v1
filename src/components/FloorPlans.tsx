@@ -77,7 +77,7 @@ const FloorPlans: React.FC = () => {
     },
     {
       id: 5,
-      title: "Residence Ten",
+      title: "Residences 10,11,12,13,14,15",
       image: "/lovable-uploads/Floor-Plan-10.jpg",
       specs: {
         bedrooms: 3,
