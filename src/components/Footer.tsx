@@ -52,11 +52,11 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-sm font-medium uppercase tracking-wider text-noir-gold mb-4">Contact</h4>
             <ul className="space-y-3 text-sm text-gray-300">
-              <li>3 Arthur Street</li>
+              <li>23 Rosebud Parade</li>
               <li>Rosebud VIC 3939</li>
-              <li className="pt-2">peter@melbournec21.com.au</li>
-              <li>Peter Anastas VIC 3939</li>
-              <li>0419 930 959</li>
+              <li className="pt-2">ck@melbournec21.com.au</li>
+              <li>Con Katos</li>
+              <li>0416 002 222</li>
             </ul>
           </div>
         </div>
