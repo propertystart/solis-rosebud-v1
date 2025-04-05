@@ -73,7 +73,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div className="ml-4">
                     <p className="text-sm font-medium text-gray-900">Contact Us</p>
-                    <p className="text-sm text-gray-600 mt-1">ck@melbournec21.com.au<br />0416 002 222</p>
+                    <p className="text-sm text-gray-600 mt-1">Con Katos<br />ck@melbournec21.com.au<br />0416 002 222</p>
                   </div>
                 </div>
               </div>
