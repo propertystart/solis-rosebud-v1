@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
@@ -11,7 +10,8 @@ import Footer from '@/components/Footer';
 import ImageReveal from '@/components/ImageReveal';
 import AnimatedText from '@/components/AnimatedText';
 import LocationAmenities from '@/components/LocationAmenities';
-import { MapPin, Home, Umbrella, Building, Compass, Car, Mountain, Wine, School, Store, Coffee } from 'lucide-react';
+import { MapPin, Home, Umbrella, Building, Compass, Car, Mountain, Wine, School, Store, Coffee, Calculator } from 'lucide-react';
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 
 const Index = () => {
   useEffect(() => {
@@ -175,7 +175,6 @@ const Index = () => {
           </div>
 
 
-          {/* Add the new LocationAmenities component */}
           <LocationAmenities />
           
           <div className="max-w-4xl mx-auto">
@@ -243,6 +242,116 @@ const Index = () => {
             <h3 className="text-2xl font-light text-white mb-6">Experience the Rosebud Lifestyle</h3>
             <a href="#contact" className="inline-block px-8 py-3 bg-noir-gold text-noir-dark font-medium rounded-sm hover:bg-noir-gold2 transition-colors">
               Contact Us Today
+            </a>
+          </div>
+        </div>
+      </section>
+      
+      <section id="depreciation-schedule" className="py-20 md:py-32 px-6 md:px-12 max-w-7xl mx-auto bg-noir">
+        <div className="text-center mb-12">
+          <AnimatedText
+            text="INVESTMENT OPPORTUNITY"
+            tag="p"
+            className="text-noir-gold text-sm tracking-widest"
+            animation="slide-up"
+          />
+          <AnimatedText
+            text="Depreciation Schedule for Investors"
+            tag="h2"
+            className="text-3xl md:text-4xl font-light text-white tracking-tight mt-3"
+            animation="slide-up"
+            delay={100}
+          />
+          <div className="h-px w-16 bg-noir-gold/30 mx-auto mt-6 mb-6"></div>
+          <AnimatedText
+            text="Maximize Your Investment Returns with Significant Tax Benefits"
+            tag="p"
+            className="text-xl text-gray-300 max-w-3xl mx-auto"
+            animation="slide-up"
+            delay={150}
+          />
+        </div>
+
+        <div className="max-w-4xl mx-auto space-y-8">
+          <div className="bg-noir-light p-8 md:p-10 rounded-sm shadow-lg border border-noir-gold/20">
+            <div className="flex items-center mb-6">
+              <Calculator className="h-6 w-6 text-noir-gold mr-3" />
+              <h3 className="text-2xl font-light text-white">Example Depreciation Schedule – Based on $900,000 Townhouse</h3>
+            </div>
+            
+            <p className="text-gray-300 leading-relaxed mb-8">
+              Investors purchasing a brand-new $900,000 townhouse can benefit from substantial tax deductions through depreciation. Here's a sample 5-year breakdown:
+            </p>
+            
+            <div className="overflow-x-auto">
+              <Table className="w-full">
+                <TableHeader className="bg-noir-dark/50">
+                  <TableRow>
+                    <TableHead className="text-noir-gold">Year</TableHead>
+                    <TableHead className="text-noir-gold">Building Depreciation (2.5% p.a.)</TableHead>
+                    <TableHead className="text-noir-gold">Fixtures & Fittings (Est.)</TableHead>
+                    <TableHead className="text-noir-gold">Total Deduction (Est.)</TableHead>
+                  </TableRow>
+                </TableHeader>
+                <TableBody>
+                  <TableRow>
+                    <TableCell className="text-white font-medium">1</TableCell>
+                    <TableCell className="text-white">$11,250</TableCell>
+                    <TableCell className="text-white">$8,500</TableCell>
+                    <TableCell className="text-white font-semibold">$19,750</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableCell className="text-white font-medium">2</TableCell>
+                    <TableCell className="text-white">$11,250</TableCell>
+                    <TableCell className="text-white">$6,000</TableCell>
+                    <TableCell className="text-white font-semibold">$17,250</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableCell className="text-white font-medium">3</TableCell>
+                    <TableCell className="text-white">$11,250</TableCell>
+                    <TableCell className="text-white">$4,000</TableCell>
+                    <TableCell className="text-white font-semibold">$15,250</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableCell className="text-white font-medium">4</TableCell>
+                    <TableCell className="text-white">$11,250</TableCell>
+                    <TableCell className="text-white">$3,000</TableCell>
+                    <TableCell className="text-white font-semibold">$14,250</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableCell className="text-white font-medium">5</TableCell>
+                    <TableCell className="text-white">$11,250</TableCell>
+                    <TableCell className="text-white">$2,000</TableCell>
+                    <TableCell className="text-white font-semibold">$13,250</TableCell>
+                  </TableRow>
+                </TableBody>
+              </Table>
+            </div>
+            
+            <p className="text-white font-medium mt-4 text-center">
+              Estimated Total Deduction Over 5 Years: <span className="text-noir-gold">$79,750</span>
+            </p>
+            
+            <div className="mt-10 bg-noir-gold/10 p-6 rounded-sm border border-noir-gold/20">
+              <h4 className="text-xl font-medium text-white mb-3 flex items-center">
+                <span className="text-noir-gold text-2xl mr-2">✓</span> Why It Matters
+              </h4>
+              <p className="text-gray-300 leading-relaxed">
+                Depreciation can significantly reduce your taxable income, improving your cash flow and boosting your long-term return on investment. These benefits are exclusive to brand-new properties, making off-the-plan purchases even more attractive.
+              </p>
+            </div>
+            
+            <div className="mt-6 text-sm text-gray-400 italic">
+              <p>
+                Note: This is a general example only. Actual amounts will vary depending on specific building costs, finishes, and your tax situation. Consult a qualified quantity surveyor or accountant for a detailed, compliant schedule.
+              </p>
+            </div>
+          </div>
+          
+          <div className="text-center mt-12 max-w-xl mx-auto reveal reveal-delay-1">
+            <h3 className="text-2xl font-light text-white mb-6">Ready to Discuss Your Investment Potential?</h3>
+            <a href="#contact" className="inline-block px-8 py-3 bg-noir-gold text-noir-dark font-medium rounded-sm hover:bg-noir-gold2 transition-colors">
+              Contact Our Team
             </a>
           </div>
         </div>

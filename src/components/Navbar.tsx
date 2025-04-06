@@ -36,6 +36,7 @@ const Navbar: React.FC = () => {
     'Fittings & Finishes',
     'Floor Plans',
     'Location',
+    'Depreciation Schedule',
     'Contact'
   ];
 
@@ -43,6 +44,9 @@ const Navbar: React.FC = () => {
   const getAnchorLink = (item: string) => {
     if (item === 'Fittings & Finishes') {
       return '#fittings-finishes';
+    }
+    if (item === 'Depreciation Schedule') {
+      return '#depreciation-schedule';
     }
     return `#${item.toLowerCase().replace(/\s+/g, '-')}`;
   };
