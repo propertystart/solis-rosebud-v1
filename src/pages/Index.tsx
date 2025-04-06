@@ -124,8 +124,8 @@ const Index = () => {
 
         <div className="max-w-4xl mx-auto mb-12">
           <ImageReveal
-            src="/lovable-uploads/3a80180e-e196-4ff8-947c-18b1111a43af.png"
-            alt="Location map of Rosebud"
+            src="/lovable-uploads/8d01b5ed-018a-457e-875a-faf6e3ad7e27.png"
+            alt="Aerial view of Rosebud showing nearby amenities"
             className="w-full rounded-sm shadow-lg"
             aspectRatio="aspect-[16/9]"
             animation="fade"
